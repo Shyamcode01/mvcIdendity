@@ -5,12 +5,48 @@
       "PackagePath": "staticwebassets\\dummyIdentity.bundle.scp.css"
     },
     {
+      "Id": "D:\\mvc_file\\dummyIdentity\\wwwroot\\css\\contactUs.css",
+      "PackagePath": "staticwebassets\\css\\contactUs.css"
+    },
+    {
+      "Id": "D:\\mvc_file\\dummyIdentity\\wwwroot\\css\\contactUsThankyou.css",
+      "PackagePath": "staticwebassets\\css\\contactUsThankyou.css"
+    },
+    {
+      "Id": "D:\\mvc_file\\dummyIdentity\\wwwroot\\css\\employess.css",
+      "PackagePath": "staticwebassets\\css\\employess.css"
+    },
+    {
+      "Id": "D:\\mvc_file\\dummyIdentity\\wwwroot\\css\\homePage.css",
+      "PackagePath": "staticwebassets\\css\\homePage.css"
+    },
+    {
       "Id": "D:\\mvc_file\\dummyIdentity\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\mvc_file\\dummyIdentity\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\mvc_file\\dummyIdentity\\wwwroot\\image\\Banner.png",
+      "PackagePath": "staticwebassets\\image\\Banner.png"
+    },
+    {
+      "Id": "D:\\mvc_file\\dummyIdentity\\wwwroot\\image\\Layer-48-1 1.png",
+      "PackagePath": "staticwebassets\\image\\Layer-48-1 1.png"
+    },
+    {
+      "Id": "D:\\mvc_file\\dummyIdentity\\wwwroot\\image\\Logo.png",
+      "PackagePath": "staticwebassets\\image\\Logo.png"
+    },
+    {
+      "Id": "D:\\mvc_file\\dummyIdentity\\wwwroot\\image\\Vector (3).png",
+      "PackagePath": "staticwebassets\\image\\Vector (3).png"
+    },
+    {
+      "Id": "D:\\mvc_file\\dummyIdentity\\wwwroot\\image\\innerBanner.png",
+      "PackagePath": "staticwebassets\\image\\innerBanner.png"
     },
     {
       "Id": "D:\\mvc_file\\dummyIdentity\\wwwroot\\js\\site.js",

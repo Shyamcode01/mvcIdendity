@@ -1,0 +1,86 @@
+﻿@model IEnumerable<dummyIdentity.Models.Employees>
+
+@{
+    ViewData["Title"] = "Employees";
+}
+<link href="~/css/employess.css" rel="stylesheet" />
+
+<div class="div-11">
+    <img loading="lazy"
+         src="~/image/innerBanner.png "
+         class="img-3" width="100%" />
+    <div class="div-12">
+    
+        Employees
+    </div>
+</div>
+ 
+ 
+
+ <p class="mt-2">
+    <a class="btn btn-primary btn-sm" asp-action="Create">Create New</a>
+</p> 
+<div class="div-13">
+    <div class="div-14">Employee Details</div>
+    <form asp-action="Employees" asp-controller="Home" method="get">
+
+
+        <input type="search" class="div-16" placeholder="Search by First name" name="SearchString">
+                <button class="div-17 text-white"  type="submit">Search </button>
+        
+          
+  </form>
+            <div class="div-18">
+                <a asp-action="Employees">Show All</a>
+          
+        </div>
+</div>
+<hr/>
+@if (ViewBag.Message!=null)
+{
+    <h2 class="text-center">Data not found</h2>
+}
+else
+{
+    
+
+<table class="table">
+    <thead>
+        <tr>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.email)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+              @*   @Html.ActionLink("Edit", "Edit", new {   id=item.id  }) |
+                @Html.ActionLink("Details", "Details", new { id=item. id }) | *@
+                @Html.ActionLink("Delete", "Delete", new {  id=item.id },
+                new {@class="btn btn-danger btn-sm text-white"})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+}

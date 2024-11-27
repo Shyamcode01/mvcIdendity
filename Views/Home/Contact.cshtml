@@ -1,0 +1,47 @@
+﻿ 
+@model dummyIdentity.Models.Contact
+@{
+    ViewData["Title"] = "Contact";
+}
+<link href="~/css/contactus.css" rel="stylesheet" />
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="div-10">
+            <img loading="lazy" src="~/image/innerBanner.png" class="img-3" width="100%" />
+            <div class="div-11">
+                Contact us</div>
+        </div>
+
+            <div class="col-lg-4 m-auto mt-3">
+
+            <form asp-action="Contact" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group mb-2">
+                    @* <label asp-for="Name" class="control-label"></label> *@
+                    <input asp-for="Name" class="form-control mb-2" placeholder="Name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-2">
+                    @* <label asp-for="Email" class="control-label"></label> *@
+                    <input class="form-control" asp-for="Email" placeholder="Email" />
+                    <span class="text-danger" asp-validation-for="Email"></span>
+                </div> <div class="form-group mb-2">
+                    @* <label class="control-label" asp-for="Mobile"></label> *@
+                    <input class="form-control" placeholder="Contact" asp-for="Mobile" />
+                    <span class="text-danger" asp-validation-for="Mobile"></span>
+                </div>
+                <div class="form-group mb-2">
+                    @* <label class="control-label" asp-for="TextMessage"></label> *@
+                    <textarea class="area form-control" placeholder="Message" rows="4" cols="50" asp-for="TextMessage"></textarea>
+                    <span class="text-danger" asp-validation-for="TextMessage"></span>
+                </div>
+                <div class="form-group mb-2">
+                    <input type="submit" value="Send" class="btn btn-primary" />
+                </div>
+            </form>
+       </div>
+    </div>
+</div>
+

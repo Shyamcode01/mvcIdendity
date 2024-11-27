@@ -1,4 +1,5 @@
 ﻿using dummyIdentity.Areas.Identity.Data;
+using dummyIdentity.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -19,4 +20,6 @@ public class dbContextsimple : IdentityDbContext<appIdentityUser>
         // For example, you can rename the ASP.NET Identity table names and more.
         // Add your customizations after calling base.OnModelCreating(builder);
     }
+
+    public DbSet<Employees> employees { get; set; }
 }

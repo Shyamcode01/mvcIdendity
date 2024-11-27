@@ -1,0 +1,764 @@
+  a {
+    text-decoration: none !important;
+    color: #0E1630 !important;
+  }
+
+  a:focus, a:active {
+    color: #0A47C9 !important;
+  }
+  .div {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .div-2 {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 18px;
+    color: #0e1630;
+    font-weight: 500;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 25px 60px;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-3 {
+    display: flex;
+    width: 100%;
+    max-width: 1318px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+    }
+  }
+  .img {
+    aspect-ratio: 2.86;
+    object-fit: auto;
+    object-position: center;
+    width: 144px;
+    max-width: 100%;
+  }
+  .div-4 {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      white-space: initial;
+    }
+  }
+  .div-5 {
+    font-family: Tomato Grotesk, sans-serif;
+  }
+  .div-6 {
+    align-self: start;
+    display: flex;
+    gap: 10px;
+    color: #0a47c9;
+    font-weight: 700;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      white-space: initial;
+    }
+  }
+  .img-2 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 8px;
+    margin: auto 0;
+  }
+  .div-7 {
+    font-family: Tomato Grotesk, sans-serif;
+  }
+  .div-8 {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div-8 {
+      white-space: initial;
+    }
+  }
+  .div-9 {
+    font-family: Tomato Grotesk, sans-serif;
+  }
+  .div-10 {
+    font-family: Tomato Grotesk, sans-serif;
+  }
+  .div-11 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    min-height: 363px;
+    width: 100%;
+    font-size: 52px;
+    color: #fff;
+    font-weight: 800;
+    white-space: nowrap;
+    justify-content: center;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      max-width: 100%;
+      font-size: 40px;
+      white-space: initial;
+    }
+  }
+  .img-3 {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .div-12 {
+    position: relative;
+    font-family: Tomato Grotesk, sans-serif;
+    background: linear-gradient(
+      90deg,
+      #0e1630 53.63%,
+      rgba(14, 22, 48, 0) 100%
+    );
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+    padding: 163px 60px 123px 300px;
+  }
+  @media (max-width: 991px) {
+    .div-12 {
+      font-size: 40px;
+      max-width: 100%;
+      white-space: initial;
+      padding: 40px 20px 40px 30px;
+    }
+  }
+  .div-13 {
+    align-self: center;
+    display: flex;
+    margin-top: 121px;
+    width: 100%;
+    max-width: 1319px;
+    gap: 20px;
+    padding: 0 20px;
+  }
+  @media (max-width: 991px) {
+    .div-13 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+  }
+  .div-14 {
+    color: #252c3a;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 700 44px Tomato Grotesk, sans-serif;
+    margin-left: 120px;
+  }
+  .div-15 {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    color: var(--BG-White, #fff);
+    font-weight: 600;
+    margin-right: 120px;
+
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  .div-16 {
+    border-color: rgba(14, 22, 48, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--BG-White, #fff);
+    align-items: start;
+    color: var(--F-SpanishGray, #969696);
+    justify-content: center;
+    padding: 17px 20px;
+    font: 400 18px/167% Tomato Grotesk, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-17 {
+    font-family: Tomato Grotesk, sans-serif;
+    background-color: #3551f3;
+    white-space: nowrap;
+    text-transform: uppercase;
+    justify-content: center;
+    padding: 18px 30px;
+  }
+
+  .div-17 a , .div-18 a {
+    color: #ffffff !important;
+  }
+  @media (max-width: 991px) {
+    .div-17 {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-18 {
+    font-family: Tomato Grotesk, sans-serif;
+    background-color: #3551f3;
+    text-transform: uppercase;
+    justify-content: center;
+    padding: 18px 30px;
+  }
+  @media (max-width: 991px) {
+    .div-18 {
+      padding: 0 20px;
+    }
+  }
+  .div-19 {
+    border-color: rgba(14, 22, 48, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #0e1630;
+    align-self: center;
+    display: flex;
+    margin-top: 52px;
+    gap: 0px;
+    font-size: 18px;
+    color: #0e1630;
+    font-weight: 400;
+    padding: 1px;
+  }
+  @media (max-width: 991px) {
+    .div-19 {
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+  }
+  .div-20 {
+    background-color: #0e1630;
+    align-self: start;
+    width: 1px;
+    height: 451px;
+  }
+  .div-21 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+    width: fit-content;
+  }
+  @media (max-width: 991px) {
+    .div-21 {
+      max-width: 100%;
+    }
+  }
+  .div-22 {
+    align-self: center;
+    display: flex;
+    width: 1114px;
+    max-width: 100%;
+    gap: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  @media (max-width: 991px) {
+    .div-22 {
+      flex-wrap: wrap;
+    }
+  }
+  .div-23 {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div-23 {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  .div-24 {
+    font-family: Hergon Grotesk, sans-serif;
+    margin: auto 0;
+  }
+  .div-25 {
+    background-color: #fff;
+    width: 1px;
+    height: 60px;
+  }
+  .div-26 {
+    font-family: Hergon Grotesk, sans-serif;
+    margin: auto 0;
+  }
+  .div-27 {
+    background-color: #fff;
+    width: 1px;
+    height: 60px;
+  }
+  .div-28 {
+    font-family: Hergon Grotesk, sans-serif;
+    margin: auto 0;
+  }
+  .div-29 {
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div-29 {
+      white-space: initial;
+    }
+  }
+  .div-30 {
+    background-color: #fff;
+    width: 1px;
+    height: 60px;
+  }
+  .div-31 {
+    font-family: Hergon Grotesk, sans-serif;
+    margin: auto 0;
+  }
+  .div-32 {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    white-space: nowrap;
+    padding: 9px 69px;
+  }
+  @media (max-width: 991px) {
+    .div-32 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-33 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-34 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-35 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  .div-36 {
+    font-family: Tomato Grotesk, sans-serif;
+    background-color: #3551f3;
+    align-self: stretch;
+    color: var(--BG-White, #fff);
+    font-weight: 600;
+    text-transform: uppercase;
+    justify-content: center;
+    padding: 17px 36px;
+  }
+  @media (max-width: 991px) {
+    .div-36 {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-37 {
+    background-color: #f4f6ff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    white-space: nowrap;
+    padding: 9px 69px;
+  }
+  @media (max-width: 991px) {
+    .div-37 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-38 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-39 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-40 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  .div-41 {
+    font-family: Tomato Grotesk, sans-serif;
+    background-color: #3551f3;
+    align-self: stretch;
+    color: var(--BG-White, #fff);
+    font-weight: 600;
+    text-transform: uppercase;
+    justify-content: center;
+    padding: 17px 36px;
+  }
+  @media (max-width: 991px) {
+    .div-41 {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-42 {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    white-space: nowrap;
+    padding: 9px 69px;
+  }
+  @media (max-width: 991px) {
+    .div-42 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-43 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-44 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-45 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  .div-46 {
+    font-family: Tomato Grotesk, sans-serif;
+    background-color: #3551f3;
+    align-self: stretch;
+    color: var(--BG-White, #fff);
+    font-weight: 600;
+    text-transform: uppercase;
+    justify-content: center;
+    padding: 17px 36px;
+  }
+  @media (max-width: 991px) {
+    .div-46 {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-47 {
+    background-color: #f4f6ff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    white-space: nowrap;
+    padding: 9px 69px;
+  }
+  @media (max-width: 991px) {
+    .div-47 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-48 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-49 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-50 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  .div-51 {
+    font-family: Tomato Grotesk, sans-serif;
+    background-color: #3551f3;
+    align-self: stretch;
+    color: var(--BG-White, #fff);
+    font-weight: 600;
+    text-transform: uppercase;
+    justify-content: center;
+    padding: 17px 36px;
+  }
+  @media (max-width: 991px) {
+    .div-51 {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-52 {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    white-space: nowrap;
+    padding: 9px 69px;
+  }
+  @media (max-width: 991px) {
+    .div-52 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-53 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-54 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-55 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  .div-56 {
+    font-family: Tomato Grotesk, sans-serif;
+    background-color: #3551f3;
+    align-self: stretch;
+    color: var(--BG-White, #fff);
+    font-weight: 600;
+    text-transform: uppercase;
+    justify-content: center;
+    padding: 17px 36px;
+  }
+  @media (max-width: 991px) {
+    .div-56 {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-57 {
+    background-color: #f4f6ff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    white-space: nowrap;
+    padding: 9px 69px;
+  }
+  @media (max-width: 991px) {
+    .div-57 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-58 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-59 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .div-60 {
+    font-family: Hergon Grotesk, sans-serif;
+    align-self: stretch;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+  }
+  .div-61 {
+    font-family: Tomato Grotesk, sans-serif;
+    background-color: #3551f3;
+    align-self: stretch;
+    color: var(--BG-White, #fff);
+    font-weight: 600;
+    text-transform: uppercase;
+    justify-content: center;
+    padding: 17px 36px;
+  }
+  @media (max-width: 991px) {
+    .div-61 {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-62 {
+    background-color: #0e1630;
+    display: flex;
+    margin-top: 120px;
+    width: 100%;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    padding: 31px 60px;
+  }
+  @media (max-width: 991px) {
+    .div-62 {
+      max-width: 100%;
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  }
+  .div-63 {
+    display: flex;
+    width: 100%;
+    max-width: 1319px;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .div-63 {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  .div-64 {
+    text-transform: uppercase;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 600 22px Hergon Grotesk, sans-serif;
+  }
+  .div-65 {
+    align-self: start;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    white-space: nowrap;
+    justify-content: space-between;
+  }
+  .div-65 a, a:focus, a:active {
+    color: #ffffff !important;
+  }
+  @media (max-width: 991px) {
+    .div-65 {
+      white-space: initial;
+    }
+  }
+  .div-66 {
+    font-family: Hergon Grotesk, sans-serif;
+  }
+  .div-67 {
+    font-family: Hergon Grotesk, sans-serif;
+  }
+  .div-68 {
+    font-family: Hergon Grotesk, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff !important;
+  }
+
+  .div {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .table-container {
+    border-color: rgba(14, 22, 48, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #0e1630;
+    align-self: center;
+    display: flex;
+    margin-top: 52px;
+    font-size: 18px;
+    color: #0e1630;
+    font-weight: 400;
+    padding: 1px;
+  }
+  @media (max-width: 991px) {
+    .table-container {
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+  }
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .table-container th, .table-container td {
+    padding: 9px 69px;
+    font-family: Hergon Grotesk, sans-serif;
+  }
+  .table-container th {
+    font-weight: 600;
+    color: #fff;
+    background-color: #0e1630;
+  }
+  .table-container td {
+    background-color: #fff;
+  }
+  .table-container tr:nth-child(odd) td {
+    background-color: #f4f6ff;
+  }
+  .action-button {
+    font-family: Tomato Grotesk, sans-serif;
+    background-color: #3551f3 !important;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 17px 36px;
+    text-align: center;
+  }
+  @media (max-width: 991px) {
+    .table-container th, .table-container td {
+      padding: 0 20px;
+      white-space: initial;
+    }
+    .action-button {
+      padding: 0 20px;
+      white-space: initial;
+    }
+  }

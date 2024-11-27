@@ -1,0 +1,401 @@
+ a {
+  text-decoration: none !important;
+  color: #0E1630 !important;
+ }
+ .div {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0e1630;
+  }
+  .div-2 {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    align-self: stretch;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 25px 60px;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-3 {
+    display: flex;
+    width: 100%;
+    max-width: 1318px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+    }
+  }
+  .img {
+    aspect-ratio: 2.86;
+    object-fit: auto;
+    object-position: center;
+    width: 144px;
+    max-width: 100%;
+  }
+  .div-4 {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: auto 0;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      white-space: initial;
+    }
+  }
+  .div-5 {
+    font-family: Tomato Grotesk, sans-serif;
+  }
+  .div-6 {
+    font-family: Tomato Grotesk, sans-serif;
+  }
+  .div-7 {
+    align-self: start;
+    display: flex;
+    gap: 10px;
+    color: #0a47c9;
+    font-weight: 700;
+  }
+  @media (max-width: 991px) {
+    .div-7 {
+      white-space: initial;
+    }
+  }
+  .img-2 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 8px;
+    margin: auto 0;
+  }
+  .div-8 {
+    font-family: Tomato Grotesk, sans-serif;
+  }
+  .div-9 {
+    font-family: Tomato Grotesk, sans-serif;
+    color: #0E1630 !important;
+  }
+  .div-10 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-self: stretch;
+    position: relative;
+    min-height: 363px;
+    width: 100%;
+    font-size: 52px;
+    color: #fff;
+    font-weight: 800;
+    justify-content: center;
+  }
+  @media (max-width: 991px) {
+    .div-10 {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+  .img-3 {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .div-11 {
+    position: relative;
+    font-family: Tomato Grotesk, sans-serif;
+    background: linear-gradient(
+      90deg,
+      #0e1630 53.63%,
+      rgba(14, 22, 48, 0) 100%
+    );
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+    padding: 162px 60px 130px 300px;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      font-size: 40px;
+      max-width: 100%;
+      padding: 40px 20px 40px 30px;
+    }
+  }
+  .div-12 {
+    color: #252c3a;
+    margin-top: 130px;
+    font: 700 44px Tomato Grotesk, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-12 {
+      margin-top: 40px;
+    }
+  }
+  .div-13 {
+    background-color: #c8c8c8;
+    margin-top: 40px;
+    width: 1320px;
+    max-width: 100%;
+    height: 1px;
+  }
+  .div-14 {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1320px;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 167%;
+  }
+  @media (max-width: 991px) {
+    .div-14 {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  .div-15 {
+    font-family: Tomato Grotesk, sans-serif;
+    border-color: rgba(14, 22, 48, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--BG-White, #fff);
+    align-items: start;
+    justify-content: center;
+    flex-grow: 1;
+    width: 95%;
+    padding: 19px 20px;
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      max-width: 100%;
+    }
+  }
+  .div-16 {
+    font-family: Tomato Grotesk, sans-serif;
+    border-color: rgba(14, 22, 48, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--BG-White, #fff);
+    align-items: start;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    padding: 19px 20px;
+  }
+  @media (max-width: 991px) {
+    .div-16 {
+      max-width: 100%;
+    }
+  }
+  .div-17 {
+    display: flex;
+    margin-top: 35px;
+    width: 100%;
+    max-width: 1320px;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 167%;
+  }
+  @media (max-width: 991px) {
+    .div-17 {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  .div-18 {
+    font-family: Tomato Grotesk, sans-serif;
+    border-color: rgba(14, 22, 48, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--BG-White, #fff);
+    align-items: start;
+    justify-content: center;
+    flex-grow: 1;
+    width: 95%;
+    padding: 19px 20px ;
+  }
+  @media (max-width: 991px) {
+    .div-18 {
+      max-width: 100%;
+    }
+  }
+  .div-19 {
+    font-family: Tomato Grotesk, sans-serif;
+    border-color: rgba(14, 22, 48, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--BG-White, #fff);
+    align-items: start;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    padding: 19px 20px;
+  }
+  @media (max-width: 991px) {
+    .div-19 {
+      max-width: 100%;
+    }
+  }
+  .div-20 {
+    background-color: var(--BG-White, #fff);
+    margin-top: 40px;
+    width: 1320px;
+    max-width: 100%;
+    align-items: start;
+    /* padding: 18px 20px 95px; */
+    font: 400 18px/167% Tomato Grotesk, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-20 textarea {
+    border-color: rgba(14, 22, 48, 1);
+    border-style: solid;
+    border-width: 1px;
+  }
+  .div-21 {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 1320px;
+    gap: 20px;
+    font-size: 20px;
+    color: var(--BG-White, #fff);
+    font-weight: 600;
+    white-space: nowrap;
+    text-transform: uppercase;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div-21 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      margin-top: 40px;
+      white-space: initial;
+    }
+  }
+  .img-4 {
+    aspect-ratio: 4;
+    object-fit: auto;
+    object-position: center;
+    width: 237px;
+    max-width: 100%;
+  }
+  .div-22 {
+    font-family: Tomato Grotesk, sans-serif;
+    background-color: #3551f3;
+    align-items: center;
+    justify-content: center;
+    padding: 23px 60px;
+    color: #ffffff;
+  }
+  .div-22 a {
+    color: #ffffff !important;
+  }
+  @media (max-width: 991px) {
+    .div-22 {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-23 {
+    background-color: #0e1630;
+    align-self: stretch;
+    display: flex;
+    margin-top: 120px;
+    width: 100%;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    padding: 31px 60px;
+  }
+  @media (max-width: 991px) {
+    .div-23 {
+      max-width: 100%;
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  }
+  .div-24 {
+    display: flex;
+    width: 100%;
+    max-width: 1319px;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .div-24 {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  .div-25 {
+    text-transform: uppercase;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 600 22px Hergon Grotesk, sans-serif;
+  }
+  .div-26 {
+    align-self: start;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    white-space: nowrap;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div-26 {
+      white-space: initial;
+    }
+  }
+  .div-27 {
+    font-family: Hergon Grotesk, sans-serif;
+  }
+  .div-28 {
+    font-family: Hergon Grotesk, sans-serif;
+  }
+  .div-29 {
+    font-family: Hergon Grotesk, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .div-27, .div-28, .div-29 {
+    color: #ffffff !important;
+  }
+
+  textarea {
+    padding: 20px !important;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 5px;
+  }
+  .error {
+    border: 1px solid red;
+  }
+
+  .fields {
+    margin-top: 50px;
+  }
